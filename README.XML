@@ -1,0 +1,15 @@
+Nome Amanda Thayane de Andrade Siqueira
+
+PARA CONSEGUIR RODAR O PROJETO, SERÁ NECESSÁRIO: JAVA 11, BANCO DE DADOS H2, LOMBOK, SPRING WEB, SPRING TOOLS.
+
+
+PARA TER ACESSO AO BANCO DE DADOS
+username = user
+passwrod = user
+
+server.port=8080
+#Banco de Dados que ser utilizado
+spring.devtools.livereload.port= 8081
+spring.datasource.url=jdbc:h2:mem:user
+spring.datasource.username=user
+spring.datasource.password=user
