@@ -1,15 +1,29 @@
-Nome Amanda Thayane de Andrade Siqueira
+# Projeto Cadastro
 
-PARA CONSEGUIR RODAR O PROJETO, SERÁ NECESSÁRIO: JAVA 11, BANCO DE DADOS H2, LOMBOK, SPRING WEB, SPRING TOOLS.
+Desenvolvido por: **Amanda Thayane**
 
+## 🛠 Requisitos para executar o projeto
 
-PARA TER ACESSO AO BANCO DE DADOS
-username = user
-passwrod = user
+- Java 11  
+- Banco de Dados H2  
+- Lombok  
+- Spring Web  
+- Spring Tools
 
+## 💾 Acesso ao Banco de Dados
+
+- **Usuário:** `user`  
+- **Senha:** `user`
+
+## ⚙️ Configurações da Aplicação
+
+```properties
 server.port=8080
-#Banco de Dados que ser utilizado
-spring.devtools.livereload.port= 8081
+
+# Porta do LiveReload
+spring.devtools.livereload.port=8081
+
+# Configurações do banco de dados H2
 spring.datasource.url=jdbc:h2:mem:user
 spring.datasource.username=user
 spring.datasource.password=user
